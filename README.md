@@ -9,8 +9,8 @@ images
 ## File Description and how to execute:  
 To drive the car in the simulator´s autonomous mode, execute ```python drive.py model.h5```  
 drive.py: script to drive the car in autonomous mode  
-model.py: script to create, train and validate the model  
-model.h5: trained convolution neural network  
+model.py: script to create, train and validate the model (CNN)  
+model.h5: trained model
 ## Data recording
 The data necessary for the task of behavioral cloning is recorded in training mode. 3 cameras
 are located in the center, left, and right of the car facing forward (see picture below). They
