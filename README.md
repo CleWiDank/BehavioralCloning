@@ -1,4 +1,4 @@
-## Behavioral Cloning Project
+# Behavioral Cloning Project
 The goals / steps of this project are the following:
 • Use the simulator to collect data of good driving behavior
 • Build, a convolution neural network in Keras that predicts steering angles from
@@ -21,7 +21,7 @@ python drive.py model.h5
 The model.py file contains the code for training and saving the convolution neural network.
 The file shows the pipeline I used for training and validating the model, and it contains
 comments to explain how the code works.
-# Data recording
+## Data recording
 The data necessary for the task of behavioral cloning is recorded in training mode. 3 cameras
 are located in the center, left, and right of the car facing forward (see picture below). They
 collect images and also record the current steering angle which result of me navigating the
@@ -34,7 +34,7 @@ Furthermore, the images are cropped so that distracting parts that carry no info
 pixels of the bottom (front lid of the car) or the top (sky and trees) of the pictures are
 neglected. Specifically, the upper 70 pixel rows are cropped off and the bottom 25 pixel rows
 as well.
-# Model Architecture and Training Strategy
+## Model Architecture and Training Strategy
 Training data was chosen to keep the vehicle driving on the road. I used a combination of
 center lane driving, recovering from the left and right sides of the road. I evaluated different
 training sets with differing sizes. So I began with a set, driving the track once in one direction
