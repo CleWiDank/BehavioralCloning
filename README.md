@@ -13,7 +13,7 @@ model.py: script to create, train and validate the model (CNN)
 model.h5: trained model
 ## Data recording
 The data necessary for the task of behavioral cloning is recorded in training mode. 3 cameras
-are located in the center, left, and right of the car facing forward (see picture below). They
+are located in the center, left, and right of the car facing forward. They
 collect images and also record the current steering angle which result of me navigating the
 car with the arrow keys of my keypad. All images are used while the side images are altered
 by adding/subtracting a correction vector of 0.35. This allows for more data collection and
