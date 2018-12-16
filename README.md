@@ -6,15 +6,11 @@ images
 • Train and validate the model with a training and validation set  
 • Test that the model successfully drives around track one without leaving the road  
 • Summarize the results with a written report  
-## File Description:  
-1. Files can be used to run the simulator in autonomous mode   
-• model.py containing the script to create and train the model  
-• drive.py for driving the car in autonomous mode  
-• model.h5 containing a trained convolution neural network  
-2. The car can be driven autonomously around the track by executing ```python drive.py model.h5```
-3. The model.py file contains the code for training and saving the convolution neural network.
-The file shows the pipeline I used for training and validating the model, and it contains
-comments to explain how the code works.
+## File Description and how to execute:  
+To drive the car in the simulator´s autonomous mode, execute ```python drive.py model.h5```  
+drive.py: script to drive the car in autonomous mode  
+model.py: script to create, train and validate the model  
+model.h5: trained convolution neural network  
 ## Data recording
 The data necessary for the task of behavioral cloning is recorded in training mode. 3 cameras
 are located in the center, left, and right of the car facing forward (see picture below). They
