@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
 # Import libraries
 import csv
 import cv2
@@ -79,14 +77,3 @@ model.fit(X_train, y_train, validation_split = 0.2, shuffle = True, nb_epoch = 1
 
 # Save model
 model.save('model16.h5')
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
